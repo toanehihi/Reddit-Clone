@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&As - Reddit Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
+                <span>reddit</span>
+            </div>
+            <button class="back-button" onclick="window.location.href='index.html'"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Reddit">
+        </div>
+        <div class="navbar-right">
+            <button class="get-app">Get App</button>
+            <button class="login">Log In</button>
+            <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="main-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
+                </ul>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>TOPICS</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li>
+                            <a href="viral.html">
+                                <i class="fas fa-globe"></i>
+                                Internet Culture (Viral)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gaming.html">
+                                <i class="fas fa-gamepad"></i>
+                                Games
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html" class="current-page">
+                                <i class="fas fa-question-circle"></i>
+                                Q&As
+                            </a>
+                        </li>
+                        <li>
+                            <a href="technology.html">
+                                <i class="fas fa-microchip"></i>
+                                Technology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="popculture.html">
+                                <i class="fas fa-music"></i>
+                                Pop Culture
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movies.html">
+                                <i class="fas fa-film"></i>
+                                Movies & TV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="anime.html">
+                                <i class="fas fa-tv"></i>
+                                Anime
+                            </a>
+                        </li>
+                        <li class="see-more"><a href="topics.html">See more</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>RESOURCES</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li><a href="#"><i class="fas fa-info-circle"></i> About Reddit</a></li>
+                        <li><a href="#"><i class="fas fa-ad"></i> Advertise</a></li>
+                        <li><a href="#"><i class="fas fa-crown"></i> Reddit Pro <span class="beta-tag">BETA</span></a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> Help</a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="content-header">
+                <div class="title-section">
+                    <h1>Q&As</h1>
+                    <p>Topic on Reddit</p>
+                </div>
+                <div class="tab-navigation">
+                    <button class="tab active">Posts</button>
+                    <button class="tab">Communities</button>
+                    <button class="tab">Related Topics</button>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh1i/styles/communityIcon_p77ll28qvfr21.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/askscience</span>
+                            <span class="dot">•</span>
+                            <span class="time">9 hours ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">Why are some animal species able to interbreed but others can't?</h2>
+                        <p class="post-text">For example, lions and tigers can produce ligers, but domestic cats and dogs can't create a hybrid. What determines whether two species can successfully interbreed? Is it solely genetic similarity, or are there other factors involved? And why are most hybrid animals sterile?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>2.7K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>438</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh0u/styles/communityIcon_6fzlk8ukx6s51.jpg" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/AskReddit</span>
+                            <span class="dot">•</span>
+                            <span class="time">1 day ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">What's something that was normal 20 years ago but would be considered weird today?</h2>
+                        <p class="post-text">Going to someone's house unannounced without texting or calling first seems really strange now, but was totally normal in the early 2000s. What else has changed in social norms that would seem odd or uncomfortable today?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>36.4K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>12.7K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2s7tj/styles/communityIcon_tijjpyw1zfw51.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/explainlikeimfive</span>
+                            <span class="dot">•</span>
+                            <span class="time">2 days ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">ELI5: Why do people with colorblindness still understand that the colors they see are "wrong"?</h2>
+                        <p class="post-text">If someone is colorblind, they've always seen colors that way their entire life. So how do they know what they're seeing isn't the "correct" version of a color? For instance, how would someone with red-green colorblindness know that what they perceive as green isn't what everyone else sees?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>11.8K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>984</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="communities-section">
+                <h3>COMMUNITIES</h3>
+                <ul class="community-list">
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/AskReddit">
+                        <div class="community-info">
+                            <span class="community-name">r/AskReddit</span>
+                            <span class="members">43.2M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/explainlikeimfive">
+                        <div class="community-info">
+                            <span class="community-name">r/explainlikeimfive</span>
+                            <span class="members">22.7M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/NoStupidQuestions">
+                        <div class="community-info">
+                            <span class="community-name">r/NoStupidQuestions</span>
+                            <span class="members">4.2M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/askscience">
+                        <div class="community-info">
+                            <span class="community-name">r/askscience</span>
+                            <span class="members">23.5M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/TooAfraidToAsk">
+                        <div class="community-info">
+                            <span class="community-name">r/TooAfraidToAsk</span>
+                            <span class="members">2.6M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li class="see-more"><a href="#">See more</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Log In</h3>
+                <button class="close-modal" id="closeLoginModal">&times;</button>
+            </div>
+            <form class="login-form" id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="login-options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="modal-footer">
+                New to Reddit? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

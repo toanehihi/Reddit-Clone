@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies & TV - Reddit Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
+                <span>reddit</span>
+            </div>
+            <button class="back-button" onclick="window.location.href='index.html'"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Reddit">
+        </div>
+        <div class="navbar-right">
+            <button class="get-app">Get App</button>
+            <button class="login">Log In</button>
+            <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="main-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
+                </ul>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>TOPICS</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li>
+                            <a href="viral.html">
+                                <i class="fas fa-globe"></i>
+                                Internet Culture (Viral)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gaming.html">
+                                <i class="fas fa-gamepad"></i>
+                                Games
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html">
+                                <i class="fas fa-question-circle"></i>
+                                Q&As
+                            </a>
+                        </li>
+                        <li>
+                            <a href="technology.html">
+                                <i class="fas fa-microchip"></i>
+                                Technology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="popculture.html">
+                                <i class="fas fa-music"></i>
+                                Pop Culture
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movies.html" class="current-page">
+                                <i class="fas fa-film"></i>
+                                Movies & TV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="anime.html">
+                                <i class="fas fa-tv"></i>
+                                Anime
+                            </a>
+                        </li>
+                        <li class="see-more"><a href="topics.html">See more</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>RESOURCES</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li><a href="#"><i class="fas fa-info-circle"></i> About Reddit</a></li>
+                        <li><a href="#"><i class="fas fa-ad"></i> Advertise</a></li>
+                        <li><a href="#"><i class="fas fa-crown"></i> Reddit Pro <span class="beta-tag">BETA</span></a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> Help</a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="content-header">
+                <div class="title-section">
+                    <h1>Movies & TV</h1>
+                    <p>Topic on Reddit</p>
+                </div>
+                <div class="tab-navigation">
+                    <button class="tab active">Posts</button>
+                    <button class="tab">Communities</button>
+                    <button class="tab">Related Topics</button>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh3s/styles/communityIcon_yq9ah8eniar81.jpg" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/movies</span>
+                            <span class="dot">•</span>
+                            <span class="time">1 day ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">What's a movie you think is a masterpiece but rarely gets mentioned?</h2>
+                        <p class="post-text">For me it's "Children of Men" (2006). The cinematography, the world-building, the performances, and those incredible long takes - everything about it is stunning. Yet I rarely see it mentioned in discussions about the best films of the 2000s. What films do you consider masterpieces that don't get enough recognition?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>6.3K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>3.9K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh6e/styles/communityIcon_oy4mm1w4ton41.jpg" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/television</span>
+                            <span class="dot">•</span>
+                            <span class="time">8 hours ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">House of the Dragon Season 2 teaser trailer has dropped!</h2>
+                        <p class="post-text">HBO just released the first teaser trailer for House of the Dragon Season 2, coming this summer. The civil war known as the "Dance of the Dragons" is officially beginning, with both sides rallying their forces and dragons. The trailer hints at several major battles from the source material. What are you most excited to see in the new season?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>12.7K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>5.4K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh3s/styles/communityIcon_yq9ah8eniar81.jpg" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/movies</span>
+                            <span class="dot">•</span>
+                            <span class="time">2 days ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">Dune: Part Two has already surpassed the total box office of the first film</h2>
+                        <p class="post-text">In just two weeks of release, Denis Villeneuve's Dune: Part Two has already grossed over $400 million worldwide, surpassing the entire theatrical run of the first film ($401M). The sequel has received widespread critical acclaim and strong audience reactions, with many calling it one of the best sci-fi epics in recent years. Warner Bros. is reportedly already in talks with Villeneuve about adapting "Dune: Messiah" to complete a trilogy.</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>18.3K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>4.6K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="communities-section">
+                <h3>COMMUNITIES</h3>
+                <ul class="community-list">
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/movies">
+                        <div class="community-info">
+                            <span class="community-name">r/movies</span>
+                            <span class="members">29.3M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/television">
+                        <div class="community-info">
+                            <span class="community-name">r/television</span>
+                            <span class="members">17.8M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/boxoffice">
+                        <div class="community-info">
+                            <span class="community-name">r/boxoffice</span>
+                            <span class="members">1.5M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/MovieDetails">
+                        <div class="community-info">
+                            <span class="community-name">r/MovieDetails</span>
+                            <span class="members">3.7M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/NetflixBestOf">
+                        <div class="community-info">
+                            <span class="community-name">r/NetflixBestOf</span>
+                            <span class="members">4.2M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li class="see-more"><a href="#">See more</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Log In</h3>
+                <button class="close-modal" id="closeLoginModal">&times;</button>
+            </div>
+            <form class="login-form" id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="login-options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="modal-footer">
+                New to Reddit? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

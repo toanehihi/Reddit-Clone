@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Culture - Reddit Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
+                <span>reddit</span>
+            </div>
+            <button class="back-button" onclick="window.location.href='index.html'"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Reddit">
+        </div>
+        <div class="navbar-right">
+            <button class="get-app">Get App</button>
+            <button class="login">Log In</button>
+            <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="main-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
+                </ul>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>TOPICS</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li>
+                            <a href="viral.html">
+                                <i class="fas fa-globe"></i>
+                                Internet Culture (Viral)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gaming.html">
+                                <i class="fas fa-gamepad"></i>
+                                Games
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html">
+                                <i class="fas fa-question-circle"></i>
+                                Q&As
+                            </a>
+                        </li>
+                        <li>
+                            <a href="technology.html">
+                                <i class="fas fa-microchip"></i>
+                                Technology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="popculture.html" class="current-page">
+                                <i class="fas fa-music"></i>
+                                Pop Culture
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movies.html">
+                                <i class="fas fa-film"></i>
+                                Movies & TV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="anime.html">
+                                <i class="fas fa-tv"></i>
+                                Anime
+                            </a>
+                        </li>
+                        <li class="see-more"><a href="topics.html">See more</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>RESOURCES</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li><a href="#"><i class="fas fa-info-circle"></i> About Reddit</a></li>
+                        <li><a href="#"><i class="fas fa-ad"></i> Advertise</a></li>
+                        <li><a href="#"><i class="fas fa-crown"></i> Reddit Pro <span class="beta-tag">BETA</span></a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> Help</a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="content-header">
+                <div class="title-section">
+                    <h1>Pop Culture</h1>
+                    <p>Topic on Reddit</p>
+                </div>
+                <div class="tab-navigation">
+                    <button class="tab active">Posts</button>
+                    <button class="tab">Communities</button>
+                    <button class="tab">Related Topics</button>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2rlwe/styles/communityIcon_7ynk4i4kxmj51.jpg" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/TaylorSwift</span>
+                            <span class="dot">•</span>
+                            <span class="time">12 hours ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">The Tortured Poets Department breaks Spotify record for most-streamed album in a single day</h2>
+                        <p class="post-text">Taylor Swift's latest album has already broken the Spotify record for most-streamed album in a single day, surpassing the previous record holder in just 12 hours. The surprise double album release with 31 tracks has fans analyzing lyrics and theorizing about connections to her personal life. What's your favorite track so far?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>14.7K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>3.2K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2su8v/styles/communityIcon_g8j7puyo92m51.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/Music</span>
+                            <span class="dot">•</span>
+                            <span class="time">2 days ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">What's a band that everyone seems to love but you just can't get into?</h2>
+                        <p class="post-text">For me it's Radiohead. I've tried multiple times to get into their music because they're so critically acclaimed, but I just can't connect with their sound. I respect their artistry and innovation, but something about it doesn't click with me personally. Anyone else have bands that everyone raves about but you just don't enjoy?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>9.4K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>6.8K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2s3h6/styles/communityIcon_a60kfa7l59591.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/Coachella</span>
+                            <span class="dot">•</span>
+                            <span class="time">3 days ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">Coachella 2024 Weekend 1 Recap Thread: Best performances, worst disappointments</h2>
+                        <p class="post-text">Now that Weekend 1 has wrapped up, let's discuss the best and worst of Coachella 2024! Doja Cat's headlining set was a huge highlight with its elaborate production, while Lana Del Rey brought out multiple surprise guests. Several attendees complained about sound issues during some sets, particularly at the Outdoor Theater. If you attended, what were your top 3 performances?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>3.6K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>1.7K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="communities-section">
+                <h3>COMMUNITIES</h3>
+                <ul class="community-list">
+                    <li>
+                        <img src="assets/images/anime/rAnimeART.png" alt="r/Music">
+                        <div class="community-info">
+                            <span class="community-name">r/Music</span>
+                            <span class="members">32.1M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/viral/communityIcon_rooie4129n6e1.png" alt="r/hiphopheads">
+                        <div class="community-info">
+                            <span class="community-name">r/hiphopheads</span>
+                            <span class="members">2.8M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/TaylorSwift">
+                        <div class="community-info">
+                            <span class="community-name">r/TaylorSwift</span>
+                            <span class="members">1.4M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/Coachella">
+                        <div class="community-info">
+                            <span class="community-name">r/Coachella</span>
+                            <span class="members">233K</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/popheads">
+                        <div class="community-info">
+                            <span class="community-name">r/popheads</span>
+                            <span class="members">876K</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li class="see-more"><a href="#">See more</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Log In</h3>
+                <button class="close-modal" id="closeLoginModal">&times;</button>
+            </div>
+            <form class="login-form" id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="login-options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="modal-footer">
+                New to Reddit? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

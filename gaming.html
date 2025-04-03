@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming - Reddit Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
+                <span>reddit</span>
+            </div>
+            <button class="back-button" onclick="window.location.href='index.html'"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Reddit">
+        </div>
+        <div class="navbar-right">
+            <button class="get-app">Get App</button>
+            <button class="login">Log In</button>
+            <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="main-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
+                </ul>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>TOPICS</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li>
+                            <a href="viral.html">
+                                <i class="fas fa-globe"></i>
+                                Internet Culture (Viral)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gaming.html" class="current-page">
+                                <i class="fas fa-gamepad"></i>
+                                Games
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html">
+                                <i class="fas fa-question-circle"></i>
+                                Q&As
+                            </a>
+                        </li>
+                        <li>
+                            <a href="technology.html">
+                                <i class="fas fa-microchip"></i>
+                                Technology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="popculture.html">
+                                <i class="fas fa-music"></i>
+                                Pop Culture
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movies.html">
+                                <i class="fas fa-film"></i>
+                                Movies & TV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="anime.html">
+                                <i class="fas fa-tv"></i>
+                                Anime
+                            </a>
+                        </li>
+                        <li class="see-more"><a href="topics.html">See more</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>RESOURCES</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li><a href="#"><i class="fas fa-info-circle"></i> About Reddit</a></li>
+                        <li><a href="#"><i class="fas fa-ad"></i> Advertise</a></li>
+                        <li><a href="#"><i class="fas fa-crown"></i> Reddit Pro <span class="beta-tag">BETA</span></a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> Help</a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="content-header">
+                <div class="title-section">
+                    <h1>Gaming</h1>
+                    <p>Topic on Reddit</p>
+                </div>
+                <div class="tab-navigation">
+                    <button class="tab active">Posts</button>
+                    <button class="tab">Communities</button>
+                    <button class="tab">Related Topics</button>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh03/styles/communityIcon_1isvxgkk7hw51.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/gaming</span>
+                            <span class="dot">•</span>
+                            <span class="time">2 days ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">What game made you fall in love with gaming?</h2>
+                        <p class="post-text">For me it was Legend of Zelda: Ocarina of Time. I was 7 years old when my parents got me an N64 for Christmas, and I was absolutely blown away by the world, the music, the characters. I remember exploring Hyrule Field for hours just because it felt so alive. What game sparked your passion for gaming?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>15.2K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>8.7K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh03/styles/communityIcon_1isvxgkk7hw51.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/gaming</span>
+                            <span class="dot">•</span>
+                            <span class="time">1 day ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">Elden Ring's Shadow of the Erdtree DLC - Release date announced!</h2>
+                        <p class="post-text">FromSoftware has finally announced that Elden Ring's highly anticipated DLC "Shadow of the Erdtree" will be releasing on June 21st, 2024. The DLC will feature new areas, enemies, weapons and bosses. Are you excited? What are your predictions for the story?</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>24.5K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>12.3K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2rh0e/styles/communityIcon_zn0j4w8hl5v81.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/pcgaming</span>
+                            <span class="dot">•</span>
+                            <span class="time">3 days ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">What's the most underrated game on Steam right now?</h2>
+                        <p class="post-text">Looking for hidden gems that deserve more attention. What games have you stumbled upon that more people should know about? For me, it's "Outer Wilds" - brilliant design, fascinating story, and an experience unlike any other game.</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>7.8K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>4.2K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="communities-section">
+                <h3>COMMUNITIES</h3>
+                <ul class="community-list">
+                    <li>
+                        <img src="assets/images/viral/communityIcon_16sx91he4iq71.jpg" alt="r/gaming">
+                        <div class="community-info">
+                            <span class="community-name">r/gaming</span>
+                            <span class="members">37.8M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/pcgaming">
+                        <div class="community-info">
+                            <span class="community-name">r/pcgaming</span>
+                            <span class="members">3.2M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/PS5">
+                        <div class="community-info">
+                            <span class="community-name">r/PS5</span>
+                            <span class="members">2.8M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/XboxSeriesX">
+                        <div class="community-info">
+                            <span class="community-name">r/XboxSeriesX</span>
+                            <span class="members">1.3M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/anime/ranime.png" alt="r/GameDeals">
+                        <div class="community-info">
+                            <span class="community-name">r/GameDeals</span>
+                            <span class="members">2.5M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li class="see-more"><a href="#">See more</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Log In</h3>
+                <button class="close-modal" id="closeLoginModal">&times;</button>
+            </div>
+            <form class="login-form" id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="login-options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="modal-footer">
+                New to Reddit? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

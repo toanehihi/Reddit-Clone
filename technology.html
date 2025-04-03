@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Clone - Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
+                <span>reddit</span>
+            </div>
+            <button class="back-button"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Reddit">
+        </div>
+        <div class="navbar-right">
+            <button class="get-app">Get App</button>
+            <button class="login">Log In</button>
+            <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="main-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
+                </ul>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>TOPICS</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li>
+                            <a href="viral.html">
+                                <i class="fas fa-globe"></i>
+                                Internet Culture (Viral)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="gaming.html">
+                                <i class="fas fa-gamepad"></i>
+                                Games
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html">
+                                <i class="fas fa-question-circle"></i>
+                                Q&As
+                            </a>
+                        </li>
+                        <li>
+                            <a href="technology.html" class="current-page">
+                                <i class="fas fa-microchip"></i>
+                                Technology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="popculture.html">
+                                <i class="fas fa-music"></i>
+                                Pop Culture
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movies.html">
+                                <i class="fas fa-film"></i>
+                                Movies & TV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="anime.html">
+                                <i class="fas fa-tv"></i>
+                                Anime
+                            </a>
+                        </li>
+                        <li class="see-more"><a href="topics.html">See more</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="section-header">
+                        <span>RESOURCES</span>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <ul class="section-menu">
+                        <li><a href="#"><i class="fas fa-info-circle"></i> About Reddit</a></li>
+                        <li><a href="#"><i class="fas fa-ad"></i> Advertise</a></li>
+                        <li><a href="#"><i class="fas fa-crown"></i> Reddit Pro <span class="beta-tag">BETA</span></a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> Help</a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <div class="content-header">
+                <div class="title-section">
+                    <h1>Technology</h1>
+                    <p>Topic on Reddit</p>
+                </div>
+                <div class="tab-navigation">
+                    <button class="tab active">Posts</button>
+                    <button class="tab">Communities</button>
+                    <button class="tab">Related Topics</button>
+                </div>
+            </div>
+
+            <div class="posts">
+                <!-- Technology posts here -->
+                <div class="post">
+                    <div class="post-header">
+                        <img src="https://styles.redditmedia.com/t5_2qh16/styles/communityIcon_fmygcobc22z01.png" class="user-avatar" alt="User Avatar">
+                        <div class="post-info">
+                            <span class="subreddit">r/technology</span>
+                            <span class="dot">•</span>
+                            <span class="time">8 hours ago</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                        <button class="more-options"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="post-title">The EU passes historic AI regulation with the AI Act</h2>
+                        <p class="post-text">The European Parliament has officially passed the AI Act, making it the world's first comprehensive AI regulation. The legislation categorizes AI systems based on risk levels, with stricter rules for high-risk applications. Systems like ChatGPT will need to disclose AI-generated content and ensure copyright compliance. Companies violating the rules could face fines of up to 7% of global annual revenue. The law will begin to take effect in two years, with certain provisions implemented sooner.</p>
+                    </div>
+                    <div class="post-footer">
+                        <div class="vote-buttons">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>4.8K</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                        <div class="comment-button">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>1.2K</span>
+                        </div>
+                        <div class="share-button">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More posts here -->
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="communities-section">
+                <h3>COMMUNITIES</h3>
+                <ul class="community-list">
+                    <li>
+                        <img src="assets/images/viral/communityIcon_16sx91he4iq71.jpg" alt="r/technology">
+                        <div class="community-info">
+                            <span class="community-name">r/technology</span>
+                            <span class="members">15.2M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/viral/communityIcon_ckakoqp1tffc1.png" alt="r/programming">
+                        <div class="community-info">
+                            <span class="community-name">r/programming</span>
+                            <span class="members">5.7M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/viral/communityIcon_rooie4129n6e1.png" alt="r/gadgets">
+                        <div class="community-info">
+                            <span class="community-name">r/gadgets</span>
+                            <span class="members">4.3M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/viral/4ADRnu2cwKIkpQt0N-g36-iq6EfTNFVV1RComMcEZiU.png" alt="r/artificial">
+                        <div class="community-info">
+                            <span class="community-name">r/artificial</span>
+                            <span class="members">2.1M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li>
+                        <img src="assets/images/viral/communityIcon_hghv56s8ccq41.png" alt="r/science">
+                        <div class="community-info">
+                            <span class="community-name">r/science</span>
+                            <span class="members">30.5M</span>
+                        </div>
+                        <button class="join-button">Join</button>
+                    </li>
+                    <li class="see-more"><a href="#">See more</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Log In</h3>
+                <button class="close-modal" id="closeLoginModal">&times;</button>
+            </div>
+            <form class="login-form" id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="login-options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="modal-footer">
+                New to Reddit? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
