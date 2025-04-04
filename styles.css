@@ -46,6 +46,12 @@ body {
     color: #d7dadc;
 }
 
+.logo-link {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+
 .back-button {
     background-color: transparent;
     border: none;
@@ -131,9 +137,11 @@ body {
 }
 
 .sidebar {
+    width: 270px;
+    min-width: 270px;
     background-color: #1a1a1b;
     color: #d7dadc;
-    width: 270px;
+    border-right: 1px solid #343536;
     padding: 16px 0;
     height: calc(100vh - 48px);
     overflow-y: auto;
@@ -141,8 +149,33 @@ body {
     top: 48px;
 }
 
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 16px 0;
+    position: relative;
+}
+
+.sidebar-header .main-menu {
+    flex: 1;
+}
+
+.right-sidebar {
+    transition: all 0.3s ease;
+}
+
+.main-menu a span, .sidebar-section {
+    transition: opacity 0.2s ease;
+}
+
+.content {
+    transition: margin-left 0.3s ease;
+}
+
 .sidebar-nav {
     padding: 0 16px;
+    position: relative;
 }
 
 .main-menu {
@@ -155,6 +188,14 @@ body {
     margin-bottom: 8px;
 }
 
+.main-menu li:first-child a {
+    padding-left: 12px;
+}
+
+.main-menu li:first-child i {
+    margin-left: 0;
+}
+
 .main-menu a {
     display: flex;
     align-items: center;
@@ -163,6 +204,7 @@ body {
     padding: 8px 12px;
     border-radius: 4px;
     transition: background-color 0.2s;
+    position: relative;
 }
 
 .main-menu a:hover {
@@ -616,21 +658,36 @@ body {
     .right-sidebar {
         display: none;
     }
+    
+    .content {
+        max-width: none;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 960px) {
     .sidebar {
-        display: none;
+        position: fixed;
+        z-index: 200;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        transform: translateX(-270px);
+        transition: transform 0.3s ease;
+    }
+    
+    .sidebar:hover, .sidebar:focus, .sidebar:focus-within {
+        transform: translateX(0);
     }
     
     .content {
         max-width: none;
+        margin-left: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .content {
         padding: 0 10px;
+        margin-left: 0;
     }
     
     .post-title {

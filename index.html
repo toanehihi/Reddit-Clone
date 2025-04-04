@@ -10,11 +10,12 @@
 <body>
     <header class="navbar">
         <div class="navbar-left">
-            <div class="logo">
-                <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
-                <span>reddit</span>
-            </div>
-            <button class="back-button"><i class="fas fa-chevron-left"></i></button>
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <img src="https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt="Reddit Logo">
+                    <span>reddit</span>
+                </div>
+            </a>
         </div>
         <div class="search-bar">
             <i class="fas fa-search"></i>
@@ -30,10 +31,14 @@
     <div class="container">
         <aside class="sidebar">
             <nav class="sidebar-nav">
-                <ul class="main-menu">
-                    <li><a href="index.html" class="current-page"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="popular.html"><i class="fas fa-fire"></i> Popular</a></li>
-                </ul>
+                <div class="sidebar-header">
+                    <ul class="main-menu">
+                        <li><a href="index.html" class="current-page">
+                            <i class="fas fa-home"></i> <span>Home</span>
+                        </a></li>
+                        <li><a href="popular.html"><i class="fas fa-fire"></i> <span>Popular</span></a></li>
+                    </ul>
+                </div>
 
                 <div class="sidebar-section">
                     <div class="section-header">
@@ -44,46 +49,46 @@
                         <li>
                             <a href="viral.html">
                                 <i class="fas fa-globe"></i>
-                                Internet Culture (Viral)
+                                <span>Internet Culture (Viral)</span>
                             </a>
                         </li>
                         <li>
                             <a href="gaming.html">
                                 <i class="fas fa-gamepad"></i>
-                                Games
+                                <span>Games</span>
                             </a>
                         </li>
                         <li>
                             <a href="questions.html">
                                 <i class="fas fa-question-circle"></i>
-                                Q&As
+                                <span>Q&As</span>
                             </a>
                         </li>
                         <li>
                             <a href="technology.html">
                                 <i class="fas fa-microchip"></i>
-                                Technology
+                                <span>Technology</span>
                             </a>
                         </li>
                         <li>
                             <a href="popculture.html">
                                 <i class="fas fa-music"></i>
-                                Pop Culture
+                                <span>Pop Culture</span>
                             </a>
                         </li>
                         <li>
                             <a href="movies.html">
                                 <i class="fas fa-film"></i>
-                                Movies & TV
+                                <span>Movies & TV</span>
                             </a>
                         </li>
                         <li>
                             <a href="anime.html">
                                 <i class="fas fa-tv"></i>
-                                Anime
+                                <span>Anime</span>
                             </a>
                         </li>
-                        <li class="see-more"><a href="topics.html">See more</a></li>
+                        <li class="see-more"><a href="topics.html"><span>See more</span></a></li>
                     </ul>
                 </div>
 
@@ -93,14 +98,14 @@
                         <i class="fas fa-chevron-up"></i>
                     </div>
                     <ul class="section-menu">
-                        <li><a href="#"><i class="fas fa-info-circle"></i> About Reddit</a></li>
-                        <li><a href="#"><i class="fas fa-ad"></i> Advertise</a></li>
-                        <li><a href="#"><i class="fas fa-crown"></i> Reddit Pro <span class="beta-tag">BETA</span></a></li>
-                        <li><a href="#"><i class="fas fa-question"></i> Help</a></li>
-                        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
-                        <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
-                        <li><a href="#"><i class="fas fa-newspaper"></i> Press</a></li>
-                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                        <li><a href="#"><i class="fas fa-info-circle"></i> <span>About Reddit</span></a></li>
+                        <li><a href="#"><i class="fas fa-ad"></i> <span>Advertise</span></a></li>
+                        <li><a href="#"><i class="fas fa-crown"></i> <span>Reddit Pro <span class="beta-tag">BETA</span></span></a></li>
+                        <li><a href="#"><i class="fas fa-question"></i> <span>Help</span></a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> <span>Blog</span></a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> <span>Careers</span></a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i> <span>Press</span></a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> <span>Communities</span></a></li>
                     </ul>
                 </div>
             </nav>
@@ -160,7 +165,7 @@
 
                 <div class="post" data-topic="anime">
                     <div class="post-header">
-                        <img src="https://styles.redditmedia.com/t5_10ik1u/styles/communityIcon_ctf3781ngyf61.png" class="user-avatar" alt="User Avatar">
+                        <img src="https://styles.redditmedia.com/t5_2qpoa/styles/communityIcon_a8uzjit9bwr21.png" class="user-avatar" alt="User Avatar">
                         <div class="post-info">
                             <span class="subreddit">r/animequestions</span>
                             <span class="dot">•</span>
@@ -172,7 +177,7 @@
                     <div class="post-content">
                         <h2 class="post-title" data-topic="anime">Describe an anime poorly</h2>
                         <div class="post-image">
-                            <img src="https://images2.alphacoders.com/744/thumb-1920-744633.png" alt="Anime meme">
+                            <img src="./assets/images/anime/nikaksa.jpg" alt="Anime meme">
                         </div>
                     </div>
                     <div class="post-footer">
@@ -226,7 +231,7 @@
 
                 <div class="post" data-topic="technology">
                     <div class="post-header">
-                        <img src="https://b.thumbs.redditmedia.com/J_fCwTYJkoM-way-eaOHv8AOHoF_jNXNqOvPrQ7bINY.png" class="user-avatar" alt="User Avatar">
+                        <img src="https://styles.redditmedia.com/t5_2qh16/styles/communityIcon_fmygcobc22z01.png" class="user-avatar" alt="User Avatar">
                         <div class="post-info">
                             <span class="subreddit">r/technology</span>
                             <span class="dot">•</span>
@@ -258,7 +263,7 @@
 
                 <div class="post" data-topic="movies">
                     <div class="post-header">
-                        <img src="https://styles.redditmedia.com/t5_2qh3s/styles/communityIcon_3hssuqq28v4e1.png" class="user-avatar" alt="User Avatar">
+                        <img src="https://styles.redditmedia.com/t5_2qh3s/styles/communityIcon_yq9ah8eniar81.jpg" class="user-avatar" alt="User Avatar">
                         <div class="post-info">
                             <span class="subreddit">r/movies</span>
                             <span class="dot">•</span>
