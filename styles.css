@@ -246,7 +246,7 @@ body {
     color: white !important;
 }
 
-
+/* Animation for collapse/expand */
 .section-menu {
     overflow: hidden;
     transition: all 0.3s ease-out;
@@ -264,7 +264,7 @@ body {
     transform: rotate(180deg);
 }
 
-
+/* Beta tag */
 .beta-tag {
     background-color: #ff4500;
     color: white;
@@ -535,7 +535,7 @@ body {
     text-decoration: underline;
 }
 
-
+/* Streaming section styles */
 .streaming-section {
     background-color: #1a1a1b;
     border-radius: 5px;
@@ -664,7 +664,7 @@ body {
     }
 }
 
-
+/* Login Modal Styles */
 .modal-overlay {
     position: fixed;
     top: 0;
